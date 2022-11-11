@@ -1,0 +1,13 @@
+sips -Z 512 src/static/assets/icons/icon-1024.png --out src/static/assets/icons/icon-512.png
+sips -Z 384 src/static/assets/icons/icon-1024.png --out src/static/assets/icons/icon-384.png
+sips -Z 256 src/static/assets/icons/icon-1024.png --out src/static/assets/icons/icon-256.png
+sips -Z 192 src/static/assets/icons/icon-1024.png --out src/static/assets/icons/icon-192.png
+sips -Z 180 src/static/assets/icons/icon-1024.png --out src/static/assets/icons/icon-180.png
+sips -Z 168 src/static/assets/icons/icon-1024.png --out src/static/assets/icons/icon-168.png
+sips -Z 167 src/static/assets/icons/icon-1024.png --out src/static/assets/icons/icon-167.png
+sips -Z 152 src/static/assets/icons/icon-1024.png --out src/static/assets/icons/icon-152.png
+sips -Z 128 src/static/assets/icons/icon-1024.png --out src/static/assets/icons/icon-128.png
+sips -Z 120 src/static/assets/icons/icon-1024.png --out src/static/assets/icons/icon-120.png
+sips -Z 96 src/static/assets/icons/icon-1024.png --out src/static/assets/icons/icon-96.png
+sips -Z 64 src/static/assets/icons/icon-1024.png --out src/static/assets/icons/icon-64.png
+sips -Z 32 src/static/assets/icons/icon-1024.png --out src/static/assets/icons/icon-32.png

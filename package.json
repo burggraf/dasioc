@@ -1,0 +1,42 @@
+{
+  "name": "dasioc",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 8100 --host 0.0.0.0",
+    "build": "vite build && vite build --ssr",
+    "build:client": "vite build",
+    "build:server": "vite build  --ssr",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "routes": "routify"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.9",
+    "@roxi/routify": "^3.0.0-next.93",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "@tsconfig/svelte": "^2.0.1",
+    "babel-loader": "^8.2.5",
+    "sass": "^1.52.2",
+    "spank": "^2.0.0-5",
+    "svelte": "^3.48.0",
+    "svelte-check": "^2.2.7",
+    "svelte-loader": "^3.1.3",
+    "svelte-preprocess": "^4.9.8",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@ionic/core": "^6.1.8",
+    "@supabase/supabase-js": "^2.0.6",
+    "chart.js": "^3.9.1",
+    "routify": "^1.2.7",
+    "rxjs": "^7.5.6",
+    "vite-plugin-pwa": "^0.12.3"
+  },
+  "routify": {
+    "pages": "./src/routes"
+  }
+}
